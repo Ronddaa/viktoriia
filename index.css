@@ -2,6 +2,11 @@ html{
     background-color: #121212;
 }
 
+body{
+    position: relative;
+    max-width: 375px;
+}
+
 h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
@@ -50,3 +55,137 @@ h6{
     align-items: center;
 }
 
+.dickUp{
+    position:absolute;
+  animation: dws-bounce 1s linear infinite, dws-moveLeft 25s linear infinite alternate;
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:100px; height:100px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:100px; height:100px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+.dickDown{
+    position:absolute;
+    transform: rotate(290deg);
+right: 0;
+  animation: dws-bounce 12s linear infinite, dws-moveLeft 2s linear infinite alternate;
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:100px; height:100px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:100px; height:100px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:100px; height:100px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:100px; height:100px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+.dickUpDown{
+    position:absolute;
+    transform: rotate(190deg);
+
+  animation: dws-bounce 123s linear infinite, dws-moveLeft 21s linear infinite alternate;
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:100px; height:100px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:100px; height:100px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:100px; height:100px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:100px; height:100px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+.dickLeft{
+    position:absolute;
+    transform: rotate(180deg);
+  animation: dws-bounce 6s linear infinite, dws-moveLeft 22s linear infinite alternate;
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:250px; height:250px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:250px; height:250px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:120px; height:120px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:120px; height:120px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+.dickRight{
+    position:absolute;
+    right: 0;
+    transform: rotate(90deg);
+  animation: dws-bounce 7s linear infinite, dws-moveLeft 70s linear infinite alternate;
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:50px; height:50px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:50px; height:50px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+.dickRightUp{
+    position:absolute;
+    transform: rotate(45deg);
+    right: 0;
+  animation: dws-bounce 17s linear infinite, dws-moveLeft 702s linear infinite alternate;
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:10px; height:10px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:10px; height:10px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
+
+.dickLeftUp{
+    position:absolute;
+    transform: rotate(166deg);
+  animation: dws-bounce 72s linear infinite, dws-moveLeft 65s linear infinite alternate;
+}
+
+@keyframes dws-bounce {
+  0% { bottom: 100%; }
+  25% { bottom:0; width:180px; height:180px;}
+  30% { bottom:0; width:110px; height:25px;}
+  35% { bottom:0; width:180px; height:180px; }
+  70% { bottom:100%;}
+  100% { bottom:100%; }
+}
