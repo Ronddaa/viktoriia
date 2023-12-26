@@ -1,0 +1,52 @@
+html{
+    background-color: #121212;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #fa0000;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+h2{
+    color: #fa8900;
+    font-size: 90px;
+    text-align: center;
+    align-items: center;
+}
+
+h3{
+    color: #e9fa00;
+    font-size: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+h4{
+    color: #1dfa00;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+h5{
+    color: #00e1fa;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+h6{
+    color: #0008fa;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+}
+
